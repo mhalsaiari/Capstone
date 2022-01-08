@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Capstone]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="12345"/>
+  <parameter name="cpwd" value="12345"/>
+  <parameter name="name" value="admin"/>
+  <parameter name="destination" value="London"/>
+  <parameter name="company" value="SP"/>
+  <parameter name="departure" value="Paris"/>
+  <parameter name="pwd" value="12345"/>
+  <parameter name="email" value="admin@sp.com"/>
+  <parameter name="useremail" value="admin@sp.com"/>
+  <test thread-count="5" name="BlazedemoTest4(failed)">
+    <classes>
+      <class name="com.qa.blazedemo.testcases.ChooseFlightPageTest">
+        <methods>
+          <include name="findflightTest" invocation-numbers="0"/>
+          <include name="chooseflightTest"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.qa.blazedemo.testcases.ChooseFlightPageTest -->
+    </classes>
+  </test> <!-- BlazedemoTest4(failed) -->
+</suite> <!-- Failed suite [Capstone] -->

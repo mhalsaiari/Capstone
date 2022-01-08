@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Capstone">
+  <parameter name="name"  value="admin"/>
+  <parameter name="company"  value="SP"/>
+  <parameter name="email"  value="admin@sp.com"/>
+  <parameter name="pwd"  value="12345"/>
+  <parameter name="cpwd"  value="12345"/>
+  <test name="BlazedemoTest">
+  <classes>
+  <class name="com.qa.blazedemo.testcases.RegisterPageTest"></class>
+  </classes>
+  </test>
+  
+  <parameter name="useremail"  value="admin@sp.com"/>
+  <parameter name="password"  value="12345"/>
+  <test name="BlazedemoTest2">
+  <classes>
+  <class name="com.qa.blazedemo.testcases.LoginPageTest"></class>
+  </classes>
+  </test>
+  
+  <parameter name="departure"  value="Boston"/>
+  <parameter name="destination"  value="Rome"/>
+  <test name="BlazedemoTest3">
+  <classes>
+  <class name="com.qa.blazedemo.testcases.FindFlightPageTest"></class>
+  </classes>
+  </test>
+  
+  <parameter name="departure"  value="Paris"/>
+  <parameter name="destination"  value="London"/>
+  <test name="BlazedemoTest4">
+  <classes>
+  <class name="com.qa.blazedemo.testcases.ChooseFlightPageTest"></class>
+  </classes>
+  </test>
+</suite>
