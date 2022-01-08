@@ -13,7 +13,7 @@ public class Xls_dataProvider {
 	static Workbook book;
 	static Sheet sheet;
 	
-	public static String testdata_sheet_path = "/Capstone/SimpleTestData.xlsx";
+	public static String testdata_sheet_path = "C:\\Users\\Thinkpad\\Desktop\\Excels\\SimpleTestData.xlsx";
 	
 	public static Object[][] getTestData(String sheetName) 
 	{

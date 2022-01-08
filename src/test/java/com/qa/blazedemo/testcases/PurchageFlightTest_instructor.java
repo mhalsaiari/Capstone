@@ -4,7 +4,7 @@ import org.testng.annotations.DataProvider;
 
 import com.qa.blazedemo.utils.Xls_dataProvider;
 
-public class PurchaseFlightTest {
+public class PurchageFlightTest_instructor {
 
 	@DataProvider(name="testdata")
 	public Object[][] readdate(){
