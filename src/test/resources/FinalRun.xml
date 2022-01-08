@@ -45,4 +45,13 @@
    <class name="com.qa.blazedemo.testcases.PurchaseflightPageTest"></class>
   </classes>
  </test>
+ 
+ <test name="BlazedemoTest6">
+  <classes>
+  
+   <class name="com.qa.capstone.RestAPI.AutomateGetRequest"></class>
+   <class name="com.qa.capstone.RestAPI.GetAirlineById"></class>
+   <class name="com.qa.capstone.RestAPI.POSTPassenger"></class>
+  </classes>
+ </test>
  </suite>

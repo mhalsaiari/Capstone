@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.blazedemo.testcases.PurchaseflightPageTest">
+      <class name="com.qa.capstone.RestAPI.GetAirlineById">
         <methods>
-          <include name="purchaseFlight"/>
-          <include name="closeBrowser"/>
-          <include name="initializtion"/>
-          <include name="ChooseflightTest"/>
-          <include name="openbrowser"/>
+          <include name="getAirlineByID"/>
         </methods>
-      </class> <!-- com.qa.blazedemo.testcases.PurchaseflightPageTest -->
+      </class> <!-- com.qa.capstone.RestAPI.GetAirlineById -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
